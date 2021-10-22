@@ -1,5 +1,22 @@
 {
     "version": 2,
+    "env": {
+        "REMOTE_DB": "false",
+        "API_PORT": "3000",
+        "POST_PORT": "3002",
+        "JWT_SECRET": "notasecret!",
+
+        "MYSQL_HOST": "remotemysql.com",
+        "MYSQL_USER": "VjtEvKIH1q",
+        "MYSQL_PASS": "MOhocDtnDq",
+        "MYSQL_DB": "VjtEvKIH1q",
+
+        "MYSQL_SRV_HOST": "localhost",
+        "MYSQL_SRV_PORT": "3001",
+
+        "CACHE_SRV_HOST": "",
+        "CACHE_SRV_PORT": "3003"
+    },
     "builds": [
         {
             "src": "api/index.js",

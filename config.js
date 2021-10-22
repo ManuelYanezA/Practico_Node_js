@@ -7,16 +7,20 @@ module.exports = {
         port: process.env.POST_PORT || 3002,
     },
     jwt: {
-        secret: process.env.JWT_SECRET || 'notasecret!',
+        secret: process.env.JWT_SECRET || '',
     },
     mysql: {
-        host: process.env.MYSQL_HOST || 'remotemysql.com',
-        user: process.env.MYSQL_USER || 'VjtEvKIH1q',
-        password: process.env.MYSQL_PASS || 'MOhocDtnDq',
-        database: process.env.MYSQL_DB || 'VjtEvKIH1q',
+        host: process.env.MYSQL_HOST || '',
+        user: process.env.MYSQL_USER || '',
+        password: process.env.MYSQL_PASS || '',
+        database: process.env.MYSQL_DB || '',
     },
     mysqlService: {
-        host: process.env.MYSQL_SRV_HOST || 'localhost',
+        host: process.env.MYSQL_SRV_HOST || '',
         port: process.env.MYSQL_SRV_PORT || 3001,
+    },
+    cacheService: {
+        host: process.env.CACHE_SRV_HOST || '',
+        port: process.env.CACHE_SRV_PORT || 3003,
     },
 }
