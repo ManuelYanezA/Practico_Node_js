@@ -16,6 +16,7 @@
     "mysql": "^2.18.1",
     "nanoid": "^3.1.29",
     "now": "^21.0.1",
+    "redis": "^3.1.2",
     "request": "^2.88.2",
     "swagger-ui-express": "^4.1.6"
   }
